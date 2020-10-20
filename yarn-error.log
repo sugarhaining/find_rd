@@ -1,0 +1,83 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add NeteaseCloudMusicApi
+
+PATH: 
+  C:\Users\lenovo\AppData\Local\Yarn\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MongoDB\Server\4.0\bin;D:\devtools\Dart\dart-sdk\bin;D:\devtools\flutter\bin;C:\Program Files (x86)\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Java\jdk1.8.0_231\jre\bin;D:\devtools\android\platform-tools;D:\devtools\android\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\devtools\Python;D:\daily-software\;C:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\devtools\Go\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\lenovo\AppData\Local\Yarn\bin;C:\\Users\\lenovo\\AppData\\Roaming\\npm;D:\devtools\conda;D:\devtools\conda\Library\mingw-w64\bin;D:\devtools\conda\Library\usr\bin;D:\devtools\conda\Library\bin;D:\devtools\conda\Scripts;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\devtools\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\devtools\WebStorm 2019.2.3\bin;D:\devtools\PyCharm 2019.2.3\bin;C:\Users\lenovo\AppData\Roaming\npm;D:\daily-software\PyCharm Community Edition 2020.1.1\bin;D:\daily-software\GoLand 2020.1.1\bin;D:\daily-software\PyCharm Edu 2020.1\bin;D:\frontend\goland\bin;C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\lenovo\AppData\Local\Yarn\Cache\v6\npm-js-tokens-4.0.0-19203fb59991df98e3a287050d4647cdeaf32499-integrity\node_modules\js-tokens\index.js' -> 'D:\project-rep\friend_rd\node_modules\@babel\template\node_modules\js-tokens\index.js'
+
+npm manifest: 
+  {
+    "name": "friend_rd",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "egg": {
+      "typescript": true,
+      "declarations": true
+    },
+    "scripts": {
+      "start": "egg-scripts start --daemon --title=egg-server-friend_rd",
+      "stop": "egg-scripts stop --title=egg-server-friend_rd",
+      "dev": "egg-bin dev",
+      "debug": "egg-bin debug",
+      "test-local": "egg-bin test",
+      "test": "npm run lint -- --fix && npm run test-local",
+      "cov": "egg-bin cov",
+      "tsc": "ets && tsc -p tsconfig.json",
+      "ci": "npm run lint && npm run cov && npm run tsc",
+      "autod": "autod",
+      "lint": "eslint . --ext .ts",
+      "clean": "ets clean"
+    },
+    "dependencies": {
+      "egg": "^2.6.1",
+      "egg-mongoose": "^3.3.0",
+      "egg-scripts": "^2.6.0"
+    },
+    "devDependencies": {
+      "@types/mocha": "^2.2.40",
+      "@types/node": "^7.0.12",
+      "@types/supertest": "^2.0.0",
+      "autod": "^3.0.1",
+      "autod-egg": "^1.1.0",
+      "egg-ci": "^1.8.0",
+      "egg-bin": "^4.11.0",
+      "egg-mock": "^3.16.0",
+      "tslib": "^1.9.0",
+      "eslint": "^6.7.2",
+      "eslint-config-egg": "^8.0.0",
+      "typescript": "^3.0.0"
+    },
+    "engines": {
+      "node": ">=8.9.0"
+    },
+    "ci": {
+      "version": "8"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "eslintIgnore": [
+      "coverage"
+    ],
+    "author": "yining_byte",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
